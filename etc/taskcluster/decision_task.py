@@ -48,6 +48,7 @@ def main(task_for):
             "try": all_tests,
             "try-taskcluster": [
                 # Add functions here as needed, in your push to that branch
+                windows_unit,
             ],
             "master": [
                 upload_docs,
